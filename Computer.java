@@ -19,7 +19,27 @@ public class Computer {
         this.name = name;
     }
 
-    public static void main(String[] args) {
 
+    public int getYear() {
+        this.year = year;
+    }
+
+    public void setYear(int year){
+        return year;
+    }
+
+    public int getCost() {
+        return cost;
+    }
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
+
+
+
+    public static void main(String[] args) {
+    }
+    public void print(){
+        System.out.println(name + year + cost);
     }
 }
